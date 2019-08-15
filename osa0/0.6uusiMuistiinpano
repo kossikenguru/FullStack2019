@@ -1,0 +1,14 @@
+selain->palvelin: https://fullstack-exampleapp.herokuapp.com/new_note_spa
+
+note over palvelin:
+palvelin vastaanottaa uuden
+JSON-muodossa olevan muistiinpanon
+end note
+
+palvelin-->selain: [{ message: "note created" }]
+
+note over selain:
+uusi muistiinpano tulee näkyviin,
+selain pysyy samalla sivulla
+ja muita HTTP-pyyntöjä ei lähetetä
+end note
